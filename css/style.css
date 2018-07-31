@@ -1,0 +1,97 @@
+
+body {
+	background-color: black;
+}
+
+h1 { 
+	color: #012b42; 
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+	font-size: 40px;
+}
+
+div {
+	margin: 10px;
+	font-family: 'Poppins', sans-serif;
+	color: #012b42;
+}
+
+#full-list {
+	background-color: #229fe2;
+	width: 600px;
+	height: 100vmax;
+	margin: auto;
+	padding: 20px 40px 30px 40px;
+}
+
+#task-list {
+	font-size: 16px;
+	
+}
+
+.complete {
+	float: right;
+	border: 1px solid #034970;
+	padding: 6px;
+	color: #034970;
+	margin-right: 10px;
+}
+
+.complete:hover {
+	background-color: #034970;
+	color: white;
+
+}
+
+.delete {
+	float: right;
+	border: 1px solid #034970;
+	padding: 6px;
+	color: #034970;
+
+}
+
+.delete:hover {
+	background-color: #034970;
+	color: white;
+
+}
+
+.item {
+	padding: 5px 40px 5px 40px;
+	font-size: 20px;
+
+}
+
+.item:hover {
+	background-color: #78c1e8;
+}
+
+.clear-fix::after {
+	content: "";
+    clear: both;
+    display: table;
+}
+
+input {
+	float: left;
+	font-size: 18px;
+	padding: 3px;
+	margin-right: 7px;
+}
+
+#submit-task {
+	float: left;
+	border: 1px solid #034970;
+	padding: 8px;
+	color: #034970;
+
+}
+
+#submit-task:hover {
+	background-color: #034970;
+	color: white;
+
+}
+
+
